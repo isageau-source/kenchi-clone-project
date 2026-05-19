@@ -76,11 +76,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Kenchi Lifestyle Gardens | Landscaping & Design | Gold Coast" },
       { name: "description", content: "Professionals in all aspects of residential and commercial landscaping on the Gold Coast." },
       { name: "author", content: "Kenchi Lifestyle Gardens" },
-      { property: "og:title", content: "Kenchi Lifestyle Gardens" },
+      { property: "og:title", content: "Kenchi Lifestyle Gardens | Landscaping & Design | Gold Coast" },
       { property: "og:description", content: "Professionals in all aspects of residential and commercial landscaping on the Gold Coast." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Kenchi Lifestyle Gardens | Landscaping & Design | Gold Coast" },
+      { name: "twitter:description", content: "Professionals in all aspects of residential and commercial landscaping on the Gold Coast." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7972844d-900c-4d98-ba18-5462091508aa/id-preview-26dce38c--5876293e-8550-4d6d-abce-2ffb634a9473.lovable.app-1779164281030.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7972844d-900c-4d98-ba18-5462091508aa/id-preview-26dce38c--5876293e-8550-4d6d-abce-2ffb634a9473.lovable.app-1779164281030.png" },
     ],
     links: [
       {
