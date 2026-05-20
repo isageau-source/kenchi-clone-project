@@ -30,6 +30,10 @@ const categories = [
   { slug: "pathways", img: hero4, title: "Pathways", blurb: "Stepping stone and paved garden walkways." },
   { slug: "pool-surrounds", img: hero7, title: "Pool Surrounds", blurb: "Non-slip paving and decking around pools." },
   { slug: "pots", img: hero8, title: "Pots", blurb: "Statement planters and decorative garden pots." },
+  { slug: "privacy-screens", img: hero3, title: "Privacy Screens", blurb: "Stylish timber and composite screening solutions." },
+  { slug: "retaining-walls", img: hero2, title: "Retaining Walls", blurb: "Engineered walls for sloped blocks and terraced gardens." },
+  { slug: "tiling", img: hero1, title: "Tiling", blurb: "Outdoor tiles for patios, pools and feature walls." },
+  { slug: "water-features", img: hero5, title: "Water Features", blurb: "Fountains, ponds and cascading water installations." },
 ];
 
 const extras = [
