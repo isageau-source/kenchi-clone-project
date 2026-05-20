@@ -66,7 +66,7 @@ export const Route = createFileRoute("/portfolio/$category")({
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
-        ...(g ? [{ property: "og:image", content: g.slides[0].src as unknown as string }] : []),
+        ...(g ? [{ property: "og:image", content: g.slides[0].src }] : []),
       ],
     };
   },
