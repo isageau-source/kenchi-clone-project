@@ -49,6 +49,39 @@ const GALLERIES: Record<string, Gallery> = {
       { src: hero7, caption: "Pool & Stone Surround" },
     ],
   },
+  "artificial-turf": {
+    title: "Artificial Turf",
+    description:
+      "Premium synthetic turf solutions that stay lush year-round without the watering, mowing or mud. Perfect for busy families and commercial spaces.",
+    slides: [
+      { src: hero5, caption: "Synthetic Lawn Installation" },
+      { src: hero1, caption: "Backyard Transformation" },
+      { src: hero4, caption: "Turf & Paving Combo" },
+      { src: hero8, caption: "Commercial Turf Area" },
+    ],
+  },
+  "concreting-driveways": {
+    title: "Concreting & Driveways",
+    description:
+      "Exposed aggregate, coloured and plain concrete driveways and slabs built to handle Gold Coast conditions and heavy daily use.",
+    slides: [
+      { src: hero6, caption: "Exposed Aggregate Driveway" },
+      { src: hero4, caption: "Coloured Concrete Finish" },
+      { src: hero7, caption: "Driveway & Pool Surround" },
+      { src: hero2, caption: "Concrete Path Detail" },
+    ],
+  },
+  "daycares-playgrounds": {
+    title: "Daycares & Playgrounds",
+    description:
+      "Safe, compliant and vibrant outdoor play areas designed for schools, daycares and community spaces. Soft-fall, shade and durable surfaces included.",
+    slides: [
+      { src: hero7, caption: "Playground Surface" },
+      { src: hero3, caption: "Shaded Play Area" },
+      { src: hero5, caption: "Daycare Garden" },
+      { src: hero8, caption: "Community Play Space" },
+    ],
+  },
 };
 
 export const Route = createFileRoute("/portfolio/$category")({
