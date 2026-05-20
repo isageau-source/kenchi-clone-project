@@ -17,14 +17,14 @@ const categories = [
   { slug: "paving", img: hero4, title: "Paving", blurb: "Driveways, pathways and entertaining areas." },
   { slug: "decking", img: hero3, title: "Decking", blurb: "Custom hardwood and composite decks." },
   { slug: "feature-stone", img: hero2, title: "Feature Stone", blurb: "Statement walls and natural stone work." },
+  { slug: "artificial-turf", img: hero5, title: "Artificial Turf", blurb: "Lush, low-maintenance synthetic lawns." },
+  { slug: "concreting-driveways", img: hero6, title: "Concreting & Driveways", blurb: "Durable concrete finishes and custom driveways." },
+  { slug: "daycares-playgrounds", img: hero7, title: "Daycares & Playgrounds", blurb: "Safe, vibrant outdoor play spaces." },
 ];
 
 const extras = [
   { img: hero1, title: "Garden Design" },
-  { img: hero5, title: "Lighting & Features" },
-  { img: hero6, title: "Privacy Screens" },
-  { img: hero7, title: "Pool Surrounds" },
-  { img: hero8, title: "Outdoor Living" },
+  { img: hero8, title: "Lighting & Features" },
 ];
 
 function Portfolio() {
