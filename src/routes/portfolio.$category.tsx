@@ -82,6 +82,28 @@ const GALLERIES: Record<string, Gallery> = {
       { src: hero8, caption: "Community Play Space" },
     ],
   },
+  "concrete-spraying": {
+    title: "Concrete Spraying",
+    description:
+      "Decorative spray-on concrete finishes for pool surrounds, pathways, patios and driveways. Slip-resistant, weatherproof and available in a wide range of colours and textures.",
+    slides: [
+      { src: hero1, caption: "Spray-on Pool Surround" },
+      { src: hero4, caption: "Textured Pathway Finish" },
+      { src: hero6, caption: "Decorative Patio Coating" },
+      { src: hero2, caption: "Custom Colour Blend" },
+    ],
+  },
+  "fire-pits": {
+    title: "Fire Pits",
+    description:
+      "Custom-designed fire pits and outdoor fireplaces that become the natural gathering point of any garden. Built with quality materials for warmth, style and longevity.",
+    slides: [
+      { src: hero8, caption: "Modern Fire Pit Feature" },
+      { src: hero5, caption: "Stone-Clad Fireplace" },
+      { src: hero3, caption: "Deck-Integrated Fire Bowl" },
+      { src: hero7, caption: "Evening Fire Feature" },
+    ],
+  },
 };
 
 export const Route = createFileRoute("/portfolio/$category")({
