@@ -192,6 +192,50 @@ const GALLERIES: Record<string, Gallery> = {
       { src: hero3, caption: "Pots on Deck" },
     ],
   },
+  "privacy-screens": {
+    title: "Privacy Screens",
+    description:
+      "Timber, composite and aluminium privacy screens that block unwanted views without blocking airflow. Custom designs that complement your garden style.",
+    slides: [
+      { src: hero3, caption: "Timber Privacy Screen" },
+      { src: hero6, caption: "Composite Screening" },
+      { src: hero8, caption: "Screen with Feature Lighting" },
+      { src: hero2, caption: "Slatted Privacy Wall" },
+    ],
+  },
+  "retaining-walls": {
+    title: "Retaining Walls",
+    description:
+      "Engineered concrete sleeper, stone and timber retaining walls built to hold back earth and create usable flat areas on sloped Gold Coast blocks.",
+    slides: [
+      { src: hero2, caption: "Stone Retaining Wall" },
+      { src: hero4, caption: "Concrete Sleeper Wall" },
+      { src: hero1, caption: "Terraced Garden Bed" },
+      { src: hero6, caption: "Timber Retaining Wall" },
+    ],
+  },
+  tiling: {
+    title: "Tiling",
+    description:
+      "Outdoor tiling for patios, pool surrounds, feature walls and alfresco floors. Slip-resistant, weatherproof finishes in porcelain, natural stone and mosaic.",
+    slides: [
+      { src: hero1, caption: "Outdoor Feature Tiling" },
+      { src: hero4, caption: "Pool Surround Tiles" },
+      { src: hero7, caption: "Alfresco Floor Tiles" },
+      { src: hero5, caption: "Mosaic Feature Wall" },
+    ],
+  },
+  "water-features": {
+    title: "Water Features",
+    description:
+      "Fountains, ponds, cascading waterfalls and bubbling rock features that bring sound, movement and serenity to outdoor spaces.",
+    slides: [
+      { src: hero5, caption: "Cascading Waterfall" },
+      { src: hero7, caption: "Garden Pond Feature" },
+      { src: hero3, caption: "Bubbling Rock Fountain" },
+      { src: hero8, caption: "Poolside Water Wall" },
+    ],
+  },
 };
 
 export const Route = createFileRoute("/portfolio/$category")({
