@@ -148,6 +148,50 @@ const GALLERIES: Record<string, Gallery> = {
       { src: hero7, caption: "Pool & Garden Lights" },
     ],
   },
+  "outdoor-showers": {
+    title: "Outdoor Showers",
+    description:
+      "Stylish outdoor showers designed for poolside rinse-offs and garden retreats. Built with durable fittings and proper drainage for coastal Gold Coast conditions.",
+    slides: [
+      { src: hero6, caption: "Poolside Shower" },
+      { src: hero7, caption: "Tropical Outdoor Shower" },
+      { src: hero3, caption: "Timber Shower Enclosure" },
+      { src: hero2, caption: "Stone Shower Feature" },
+    ],
+  },
+  pathways: {
+    title: "Pathways",
+    description:
+      "Stepping stone, paved and gravel garden walkways that connect spaces and invite exploration. Every pathway is laid on a compacted base for lasting stability.",
+    slides: [
+      { src: hero4, caption: "Stepping Stone Path" },
+      { src: hero1, caption: "Garden Walkway" },
+      { src: hero5, caption: "Curved Path Design" },
+      { src: hero2, caption: "Path with Feature Stone" },
+    ],
+  },
+  "pool-surrounds": {
+    title: "Pool Surrounds",
+    description:
+      "Non-slip paving, timber decking and custom coping that frames your pool beautifully while staying safe underfoot. Designed for wet areas and harsh sun.",
+    slides: [
+      { src: hero7, caption: "Travertine Pool Deck" },
+      { src: hero4, caption: "Timber Pool Surround" },
+      { src: hero8, caption: "Paved Pool Edge" },
+      { src: hero6, caption: "Pool Coping Detail" },
+    ],
+  },
+  pots: {
+    title: "Pots",
+    description:
+      "Statement planters and decorative garden pots that add instant structure, height and personality to outdoor spaces. Available in concrete, terracotta and glazed finishes.",
+    slides: [
+      { src: hero8, caption: "Large Feature Planter" },
+      { src: hero5, caption: "Potted Garden Display" },
+      { src: hero1, caption: "Terracotta Collection" },
+      { src: hero3, caption: "Pots on Deck" },
+    ],
+  },
 };
 
 export const Route = createFileRoute("/portfolio/$category")({
