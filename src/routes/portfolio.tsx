@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import hero1 from "@/assets/kenchi/hero1.jpg";
 import hero2 from "@/assets/kenchi/hero2.jpg";
 import hero3 from "@/assets/kenchi/hero3.jpg";
@@ -13,11 +13,14 @@ export const Route = createFileRoute("/portfolio")({
   head: () => ({ meta: [{ title: "Our Portfolio | Kenchi Lifestyle Gardens" }, { name: "description", content: "Explore our gallery of paving, feature stone, decking, lighting and complete garden transformations." }] }),
 });
 
-const items = [
-  { img: hero1, title: "Paving Gallery" },
-  { img: hero2, title: "Feature Stone" },
-  { img: hero3, title: "Decking" },
-  { img: hero4, title: "Garden Design" },
+const categories = [
+  { slug: "paving", img: hero4, title: "Paving", blurb: "Driveways, pathways and entertaining areas." },
+  { slug: "decking", img: hero3, title: "Decking", blurb: "Custom hardwood and composite decks." },
+  { slug: "feature-stone", img: hero2, title: "Feature Stone", blurb: "Statement walls and natural stone work." },
+];
+
+const extras = [
+  { img: hero1, title: "Garden Design" },
   { img: hero5, title: "Lighting & Features" },
   { img: hero6, title: "Privacy Screens" },
   { img: hero7, title: "Pool Surrounds" },
@@ -28,8 +31,27 @@ function Portfolio() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16">
       <h1 className="font-serif italic text-5xl mb-10">Our Portfolio</h1>
+      <p className="text-muted-foreground mb-10 max-w-2xl">Browse our featured categories or scroll for more work from across the Gold Coast.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
+        {categories.map((c) => (
+          <Link
+            key={c.slug}
+            to="/portfolio/$category"
+            params={{ category: c.slug }}
+            className="group relative block overflow-hidden rounded-sm border border-border"
+          >
+            <img src={c.img} alt={c.title} className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent p-4">
+              <p className="font-serif italic text-2xl">{c.title}</p>
+              <p className="text-sm text-muted-foreground">{c.blurb}</p>
+              <p className="text-xs uppercase tracking-wider mt-2 opacity-80 group-hover:opacity-100">View gallery →</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+      <h2 className="font-serif italic text-3xl mb-6">More of our work</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {items.map((it) => (
+        {extras.map((it) => (
           <figure key={it.title} className="group relative overflow-hidden rounded-sm border border-border">
             <img src={it.img} alt={it.title} className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/90 to-transparent p-4 font-serif italic text-xl">
