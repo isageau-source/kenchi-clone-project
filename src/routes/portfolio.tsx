@@ -26,6 +26,10 @@ const categories = [
   { slug: "gazebos", img: hero3, title: "Gazebos", blurb: "Elegant outdoor structures for shade and entertaining." },
   { slug: "herb-veggie-beds", img: hero1, title: "Herb & Veggie Garden Beds", blurb: "Raised planter boxes for productive home gardens." },
   { slug: "lighting", img: hero5, title: "Lighting", blurb: "Atmospheric outdoor lighting and garden feature lights." },
+  { slug: "outdoor-showers", img: hero6, title: "Outdoor Showers", blurb: "Stylish poolside and garden showers for coastal living." },
+  { slug: "pathways", img: hero4, title: "Pathways", blurb: "Stepping stone and paved garden walkways." },
+  { slug: "pool-surrounds", img: hero7, title: "Pool Surrounds", blurb: "Non-slip paving and decking around pools." },
+  { slug: "pots", img: hero8, title: "Pots", blurb: "Statement planters and decorative garden pots." },
 ];
 
 const extras = [
