@@ -17,26 +17,35 @@ export type Database = {
       leads: {
         Row: {
           created_at: string
+          email: string | null
           firstname: string
           id: string
+          message: string | null
           phone: string
           source: string
+          suburb: string | null
           surname: string | null
         }
         Insert: {
           created_at?: string
+          email?: string | null
           firstname: string
           id?: string
+          message?: string | null
           phone: string
           source?: string
+          suburb?: string | null
           surname?: string | null
         }
         Update: {
           created_at?: string
+          email?: string | null
           firstname?: string
           id?: string
+          message?: string | null
           phone?: string
           source?: string
+          suburb?: string | null
           surname?: string | null
         }
         Relationships: []
