@@ -22,6 +22,10 @@ const categories = [
   { slug: "daycares-playgrounds", img: hero7, title: "Daycares & Playgrounds", blurb: "Safe, vibrant outdoor play spaces." },
   { slug: "concrete-spraying", img: hero1, title: "Concrete Spraying", blurb: "Decorative spray-on concrete for pools, paths and patios." },
   { slug: "fire-pits", img: hero8, title: "Fire Pits", blurb: "Custom-built fire features for year-round outdoor living." },
+  { slug: "garden-edging", img: hero2, title: "Garden Edging", blurb: "Defined borders that keep garden beds neat and tidy." },
+  { slug: "gazebos", img: hero3, title: "Gazebos", blurb: "Elegant outdoor structures for shade and entertaining." },
+  { slug: "herb-veggie-beds", img: hero1, title: "Herb & Veggie Garden Beds", blurb: "Raised planter boxes for productive home gardens." },
+  { slug: "lighting", img: hero5, title: "Lighting", blurb: "Atmospheric outdoor lighting and garden feature lights." },
 ];
 
 const extras = [

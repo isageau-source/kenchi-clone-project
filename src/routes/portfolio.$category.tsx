@@ -104,6 +104,50 @@ const GALLERIES: Record<string, Gallery> = {
       { src: hero7, caption: "Evening Fire Feature" },
     ],
   },
+  "garden-edging": {
+    title: "Garden Edging",
+    description:
+      "Steel, concrete and natural stone edging that creates crisp, lasting boundaries between lawn, garden beds and pathways. Keeps mulch in and grass out.",
+    slides: [
+      { src: hero2, caption: "Steel Garden Edging" },
+      { src: hero1, caption: "Stone Border Detail" },
+      { src: hero4, caption: "Edging Along Pathway" },
+      { src: hero7, caption: "Curved Lawn Edge" },
+    ],
+  },
+  gazebos: {
+    title: "Gazebos",
+    description:
+      "Freestanding and deck-integrated gazebos and pergolas designed for shade, shelter and style. Built with durable hardwoods and quality fixings for the Gold Coast climate.",
+    slides: [
+      { src: hero3, caption: "Hardwood Gazebo" },
+      { src: hero8, caption: "Pergola Over Deck" },
+      { src: hero6, caption: "Integrated Outdoor Room" },
+      { src: hero5, caption: "Evening Gazebo Lighting" },
+    ],
+  },
+  "herb-veggie-beds": {
+    title: "Herb & Veggie Garden Beds",
+    description:
+      "Raised planter boxes and custom garden beds built for easy access and productive growing. Designed with proper drainage, quality soil and the right orientation for Gold Coast conditions.",
+    slides: [
+      { src: hero1, caption: "Raised Planter Boxes" },
+      { src: hero4, caption: "Herb Garden Bed" },
+      { src: hero2, caption: "Veggie Patch Border" },
+      { src: hero6, caption: "Tiered Garden Beds" },
+    ],
+  },
+  lighting: {
+    title: "Lighting",
+    description:
+      "Atmospheric outdoor lighting that transforms gardens after dark. From subtle path lights to dramatic uplighting on feature trees and architectural elements.",
+    slides: [
+      { src: hero5, caption: "Garden Path Lighting" },
+      { src: hero8, caption: "Feature Uplighting" },
+      { src: hero3, caption: "Deck Lighting Detail" },
+      { src: hero7, caption: "Pool & Garden Lights" },
+    ],
+  },
 };
 
 export const Route = createFileRoute("/portfolio/$category")({
