@@ -20,6 +20,8 @@ const categories = [
   { slug: "artificial-turf", img: hero5, title: "Artificial Turf", blurb: "Lush, low-maintenance synthetic lawns." },
   { slug: "concreting-driveways", img: hero6, title: "Concreting & Driveways", blurb: "Durable concrete finishes and custom driveways." },
   { slug: "daycares-playgrounds", img: hero7, title: "Daycares & Playgrounds", blurb: "Safe, vibrant outdoor play spaces." },
+  { slug: "concrete-spraying", img: hero1, title: "Concrete Spraying", blurb: "Decorative spray-on concrete for pools, paths and patios." },
+  { slug: "fire-pits", img: hero8, title: "Fire Pits", blurb: "Custom-built fire features for year-round outdoor living." },
 ];
 
 const extras = [
